@@ -1,0 +1,15 @@
+{
+  "name": "dts-bundle-generator-node-imports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/dts-bundle-generator -o ./index.d.ts ./stoppable.d.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^9.6.6",
+    "dts-bundle-generator": "^1.1.0"
+  }
+}
