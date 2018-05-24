@@ -20,11 +20,7 @@
       "node"
     ]
   },
-  "include": [
-    "**/*.ts"
-  ],
   "exclude": [
-    "node_modules",
-    "**/*.d.ts"
+    "node_modules"
   ]
 }
